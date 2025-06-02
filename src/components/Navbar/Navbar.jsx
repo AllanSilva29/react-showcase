@@ -114,7 +114,7 @@ const Navbar = () => {
               aria-expanded={isMobileMenuOpen}
             >
               <span className="sr-only">Abrir menu principal</span>
-              {isMobileMenuOpen ? <FiX className="block h-6 w-6" /> : <FiMenu className="block h-6 w-6" />}
+              {isMobileMenuOpen ? <FiX className="block h-6 w-6" data-testid="icon-close" /> : <FiMenu className="block h-6 w-6" data-testid="icon-menu" />}
             </button>
           </div>
         </div>
