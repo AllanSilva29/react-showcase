@@ -21,7 +21,7 @@ function App() {
           <Route path="/rodape-exemplo" element={<FooterDemoPage />} />
 
           {/* Rota para Conceitos Fundamentais */}
-          <Route path="/conceitos" element={<ConceptsPage />} /> {/* Nova Rota */}
+          <Route path="/conceitos" element={<ConceptsPage />} />
 
           {/* Placeholders para rotas das Semanas 2, 3, 4 - Ex:
           <Route path="/semana2" element={<Semana2HomePage />} />
