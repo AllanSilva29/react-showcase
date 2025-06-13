@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { PrismAsyncLight as SyntaxHighlighter } from 'react-syntax-highlighter'; // Usaremos a versão AsyncLight para melhor performance
-import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism'; // Um tema popular (VS Code Dark+)
+import { PrismAsyncLight as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import jsx from 'react-syntax-highlighter/dist/esm/languages/prism/jsx';
 import css from 'react-syntax-highlighter/dist/esm/languages/prism/css';
-import javascript from 'react-syntax-highlighter/dist/esm/languages/prism/javascript'; // Caso precise de JS puro também
+import javascript from 'react-syntax-highlighter/dist/esm/languages/prism/javascript';
 
 SyntaxHighlighter.registerLanguage('jsx', jsx);
 SyntaxHighlighter.registerLanguage('css', css);
@@ -49,8 +49,7 @@ const ComponentShowcase = ({
             <div className="mb-6">
               <h4 className="text-md font-semibold text-slate-600 mb-2">
                 JSX {componentName ? `(${componentName}.jsx)` : ''}:
-              </h4>
-              {/* SUBSTITUÍDO AQUI */}
+              </h4>Spaces
               <SyntaxHighlighter
                 language="jsx"
                 style={vscDarkPlus} // Use o tema importado
@@ -62,7 +61,7 @@ const ComponentShowcase = ({
                   fontSize: '0.875rem', // um pouco menor para código
                 }}
               >
-                {jsxCode.trim()}
+                {jsxCode.trim()}Spaces
               </SyntaxHighlighter>
               {/* Botão de Copiar Código (a ser implementado depois) */}
             </div>
