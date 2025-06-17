@@ -19,7 +19,7 @@ const ComponentShowcase = ({
   children
 }) => {
   return (
-    <div className="mb-12 p-4 sm:p-6 bg-white shadow-xl rounded-lg border border-slate-200">
+    <div data-testid="component-showcase-container" className="mb-12 p-4 sm:p-6 bg-white shadow-xl rounded-lg border border-slate-200">
       {title && (
         <h2 className="text-2xl font-semibold text-sky-700 mb-2">
           {title}
