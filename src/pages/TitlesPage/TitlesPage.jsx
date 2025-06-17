@@ -1,7 +1,6 @@
-// src/pages/TitlesPage/TitlesPage.jsx
 import React from 'react';
 import ComponentShowcase from '../../components/ComponentShowcase/ComponentShowcase';
-import Heading from '../../components/Typography/Heading'; // Nosso componente interno!
+import Heading from '../../components/Typography/Heading';
 
 // --- Código JSX para Exemplo de Título H1 ---
 const exemploH1JsxCode = `

@@ -1,6 +1,6 @@
 import React from 'react';
 import ComponentShowcase from '../../components/ComponentShowcase/ComponentShowcase';
-import DemoFooter from '../../components/CustomFooter/DemoFooter'; // Nosso componente interno
+import DemoFooter from '../../components/CustomFooter/DemoFooter';
 import Heading from '../../components/Typography/Heading';
 import Paragraph from '../../components/Typography/Paragraph';
 
@@ -151,8 +151,6 @@ const FooterDemoPage = () => {
           copyrightText="Minha Marca © Alguns Direitos Reservados."
           links={footerLinksExample}
           socialLinks={socialLinksExample}
-          // As classes padrão do DemoFooter já são próximas a este exemplo,
-          // mas podemos ajustar se necessário.
         />
       </ComponentShowcase>
     </div>

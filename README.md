@@ -69,7 +69,7 @@ O principal objetivo deste projeto é fornecer uma maneira visual e prática par
     O site estará disponível em `http://localhost:5173` (ou uma porta similar indicada no terminal).
 
 ## 📁 Estrutura do Projeto (Principais Pastas)
-
+```
 react-showcase/
 ├── public/ # Assets estáticos
 ├── src/
@@ -94,5 +94,6 @@ react-showcase/
 │ └── main.jsx # Ponto de entrada da aplicação React
 ├── tailwind.config.js # Configuração do Tailwind CSS
 └── vite.config.js # Configuração do Vite
+```
 
 Feito com ❤️ e muito React! Espero que este showcase seja útil em sua jornada de aprendizado! 🌟

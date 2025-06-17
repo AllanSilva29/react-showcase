@@ -1,6 +1,6 @@
 import React from 'react';
 import ComponentShowcase from '../../components/ComponentShowcase/ComponentShowcase';
-import ImageGallery from '../../components/Gallery/ImageGallery'; // Nosso componente interno
+import ImageGallery from '../../components/Gallery/ImageGallery';
 import Heading from '../../components/Typography/Heading';
 import Paragraph from '../../components/Typography/Paragraph';
 
@@ -88,11 +88,9 @@ const GalleryPage = () => {
         componentName="MinhaGaleriaSimples"
         jsxCode={simpleGalleryJsxCode}
       >
-        {/* Usando nosso componente ImageGallery interno para a visualização */}
+       
         <ImageGallery images={sampleImagesData} />
       </ComponentShowcase>
-
-      {/* Pode adicionar mais exemplos de galerias aqui no futuro (ex: com lightbox) */}
     </div>
   );
 };
