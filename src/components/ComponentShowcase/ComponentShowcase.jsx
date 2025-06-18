@@ -49,7 +49,7 @@ const ComponentShowcase = ({
             <div className="mb-6">
               <h4 className="text-md font-semibold text-slate-600 mb-2">
                 JSX {componentName ? `(${componentName}.jsx)` : ''}:
-              </h4>Spaces
+              </h4>
               <SyntaxHighlighter
                 language="jsx"
                 style={vscDarkPlus} // Use o tema importado
@@ -61,7 +61,7 @@ const ComponentShowcase = ({
                   fontSize: '0.875rem', // um pouco menor para código
                 }}
               >
-                {jsxCode.trim()}Spaces
+                {jsxCode.trim()}
               </SyntaxHighlighter>
               {/* Botão de Copiar Código (a ser implementado depois) */}
             </div>
